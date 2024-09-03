@@ -1,7 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
-import newEmployee from "./routes/managementRoutes.js"
+import newEmployee from "./routes/managementRoutes.js";
 
 dotenv.config();
 const app = express();
@@ -11,7 +11,7 @@ const CONNECTION_URL = process.env.CONNECTION_URL;
 app.use(express.json());
 
 // routes
-app.use("/api/employee",newEmployee)
+app.use("/api/employee", newEmployee);
 
 // mongodb
 mongoose

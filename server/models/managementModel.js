@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const managementSchema = new mongoose.Schema({
   employeeId: {
-    type:Number,
+    type: Number,
     required: true,
     unique: true,
   },

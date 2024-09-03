@@ -1,6 +1,6 @@
 import Management from "../models/managementModel.js";
 
-// Create 
+// Create
 export const create = async (req, res) => {
   try {
     const employee = new Management(req.body);
@@ -11,7 +11,7 @@ export const create = async (req, res) => {
   }
 };
 
-// Update 
+// Update
 export const update = async (req, res) => {
   try {
     const updatedEmployee = await Management.findByIdAndUpdate(
@@ -30,7 +30,7 @@ export const update = async (req, res) => {
   }
 };
 
-// Delete 
+// Delete
 export const deleteEmployee = async (req, res) => {
   try {
     const { id } = req.params;
