@@ -3,7 +3,7 @@
 
 const Employee = () => {
   return (
-    <main className="h-screen w-screen bg-black flex items-start justify-center p-20">
+    <main className="h-screen w-screen bg-black flex items-start justify-center pt-20">
       <div className="flex items-center justify-center flex-col gap-10 capitalize">
         <div className="flex items-center justify-center gap-8">
           <input
